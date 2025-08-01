@@ -139,7 +139,7 @@ h4{
    nav li{padding-left: 0;}
    .footer{display: flex;padding: 20px 0;}
     .contacts h2::after{
-  content: " ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━";color: gray; vertical-align: middle;
+  content: " ━━━━━━━━━━━━━━━━━━━━━━━━━";color: gray; vertical-align: middle;
 }
    .img-row{justify-content: flex-end;margin: 10px 0;padding: 0;color: wheat;}
    .footer-text{flex: 1;margin: 10px 0;color: white;}
