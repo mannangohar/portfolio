@@ -74,7 +74,7 @@ h4{
   flex: 1;
   line-height: 2.0;
   font-size: 15px;
-  color: gray;
+  color: rgba(146, 157,175, 1);
   font-weight: bold;
  }
 
@@ -98,7 +98,7 @@ h4{
  }
  .right-contacts ul li a{
   text-decoration: none;
-  color: gray;
+  color: rgba(146, 157,175, 1);
   list-style: none;
   margin-right: 5px;
   margin-left: -45px;
@@ -145,8 +145,9 @@ h4{
    .footer-text{flex: 1;margin: 10px 0;color: white;}
   .contacts,.all-media{margin: 10px 0;}
   .contact-card{flex-direction: column;}
+  .left-contacts p{color:rgba(146, 157,175, 1)}
   .support{width: 58%;margin: 0;padding: 7px;height: 50%;}
-  .support a{margin: 0;padding: 0;font-size: 14px;}
+  .support a{margin: 0;padding: 0;font-size: 14px;color:rgba(146, 157,175, 1)}
   .support aside{margin: 0;padding: 0;font-size: 14px;}
 }
     
