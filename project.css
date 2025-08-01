@@ -1,0 +1,181 @@
+*{
+  box-sizing: border-box;
+  background-color:rgb(15.69%, 17.25%, 20%);
+  font-family: 'Fira Code', monospace;
+
+}
+.fixed {
+margin: 10px;
+position: fixed;
+top: 0;
+left: 0;
+width: 50px;
+}
+.header{
+  margin-left: 171px;
+  margin-right: 171px;
+  display: flex;
+  padding-top: 10px;
+
+    position: fixed;
+    top: 0;
+    left: -10px;
+    right: -15px;
+    z-index: 1000;
+    background-color: rgb(15.69%, 17.25%, 20%); 
+  }
+nav{
+  display: flex;
+  flex-direction: row-reverse ;
+  flex: 1;
+  flex-wrap: nowrap;
+  
+  
+}
+nav li{
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 16px;
+
+
+
+}
+nav li a{
+  text-decoration: none;
+  color: rgba(146, 157,175, 1);
+  font-weight: bold;
+}
+.hash{
+  color: rgb(66, 112, 153);
+}
+  h4{
+    font-size: 16px;
+    color: rgb(255, 255, 255);}
+
+    h2{
+        color: white;
+        font-size: 30px;
+    }
+
+    .project-section {
+        margin: 130px 0px 50px 171px;
+       }
+
+       .project-area h2{
+         margin: 50px 0px 50px 0px;
+       }
+       .project-area h5{
+        margin-top: -30px;
+        font-size: large;
+        color: rgba(146, 157,175, 1);
+       }
+       .project-boxes{
+         display: flex;
+         flex-wrap: wrap;
+     
+       }
+       .project-card{
+         margin: 7px 7px 0px 0px;
+         border: 1px solid rgba(146, 157,175, 1) ;
+         flex-wrap: wrap;
+       }
+       .project-head{
+         margin-bottom: -3px;
+       }
+       .title{
+         color: rgba(146, 157,175, 1);
+         font-size: 20px;
+         padding:7px;
+         border-bottom: 1px solid rgba(146, 157,175, 1);
+       }
+       .Capital{
+         color: white;
+         font-size: 23px;
+         padding: 5px;
+       }
+       .desc{
+         color: rgba(146, 157,175, 1);
+         margin: 7px;
+       }
+       .live ul li{
+        list-style-type: none;
+      }
+      .live ul li a{
+        text-decoration: none;
+        border: 1px solid rgba(146, 157,175, 1);
+        color: rgba(146, 157,175, 1) ;
+        padding: 10px;
+        margin:10px 5px 10px -30px;
+      
+        }
+       .my-profile{
+        color: rgb(174, 175, 175);
+        font-size: 20px;
+        padding: 4px;
+        border-bottom: 1px solid rgba(146, 157,175, 1);
+        border-top: 1px solid rgba(146, 157,175, 1);
+        text-align: center;
+       }
+
+       .skills{
+        margin: 0px 171px 0px 171px;
+        box-sizing: border-box;
+      }
+     .skills-lower-block{
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .skill-box{
+      margin: 0px 0px 5px 8px;
+      border: 1px solid rgba(146, 157,175, 1);
+      justify-content: space-between;
+     }
+     .skill-box-title{
+      padding: 0px 10px 0px 10px;
+      border-bottom: 1px solid rgba(146, 157,175, 1);
+     }
+     .skill-box-title h4{
+      margin: 10px;
+      color: rgba(146, 157,175, 1);
+     }
+     .skill-box-head h4{
+        margin: 0px 70px 0px 20px;
+        padding: 10px 30px 10px 10px;
+    
+     }
+     .skill-box-desc{
+      padding: 0px 5px 0px 10px;
+      color: rgba(146, 157,175, 1);
+     }
+     .footer{
+      border-top: 1px solid rgba(146, 157,175, 1);
+      margin-top: 100px;
+      padding: 15px 171px;
+      display: flex;
+      color: antiquewhite;
+     }
+     .footer-text{flex: 1;}
+     .img-row{justify-content: end;}
+    
+     .copyright{
+      color: rgba(146, 157,175, 1);
+      text-align: center;
+      padding:10 20px 0px 20px;
+     }
+       @media (max-width:575px){
+        body {margin: 0;padding: 0 16px;}
+        .fixed{display: none;}
+        .header{position: relative;margin: 0;flex-direction: column;}
+        .header h4 {font-size: 22px; margin: 20px 0;}
+         nav {flex-direction: row;justify-content: center;}
+         nav ul {padding-left: 0;display: flex;gap: 14px;justify-content: center;}
+         nav li{padding-left: 0;}
+         .footer{display: flex;padding: 20px 0;}
+         .img-row{justify-content: flex-end;margin: 10px 0;padding: 0;color: wheat;}
+         .footer-text{flex: 1;margin: 10px 0;color: white;}
+         .project-section,.skills{margin: 10px 0;}
+         .title,.desc{margin: 0;padding: 5px 5px; font-size: 14px;}
+         .skill-box-title h4{margin: 5px;}
+         .hide{display: none;}
+         .skill-box-head h4{margin: 5px;padding: 0;}
+        }

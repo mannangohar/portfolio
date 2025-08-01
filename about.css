@@ -1,0 +1,202 @@
+*{
+  box-sizing: border-box;
+  background-color:rgb(15.69%, 17.25%, 20%);
+  font-family: 'Fira Code', monospace;
+
+}
+.fixed {
+margin: 10px;
+position: fixed;
+top: 0;
+left: 0;
+width: 50px;
+}
+.header{
+  margin-left: 171px;
+  margin-right: 171px;
+  display: flex;
+  padding-top: 10px;
+
+    position: fixed;
+    top: 0;
+    left: -10px;
+    right: -15px;
+    z-index: 1000;
+    background-color: rgb(15.69%, 17.25%, 20%); 
+  }
+nav{
+  display: flex;
+  flex-direction: row-reverse ;
+  flex: 1;
+  flex-wrap: nowrap;
+  
+  
+}
+nav li{
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 16px;
+
+
+
+}
+nav li a{
+  text-decoration: none;
+  color: rgba(146, 157,175, 1);
+  font-weight: bold;
+}
+.hash{
+  color: rgb(66, 112, 153);
+}
+ 
+ h2{
+    color: beige;
+    font-size: 30px;
+  }
+
+  .about-me{
+    margin: 150px 171px 20px 171px;
+    box-sizing: border-box;
+   }
+   .about-me-head p{
+    color: whitesmoke;
+    margin-top: -5px;
+   }
+   .lower-about-me{
+    display: flex;
+   }
+   .left-about-me{
+    flex: 2;
+   }
+   .left-about-me p{
+    font-size: 15px;
+    line-height: 2.0;
+    font-weight: bold;
+    color: rgba(146, 157,175, 1);
+   }
+   .right-about-me{
+    flex: 1;
+   }
+   .right-about-me img{
+    height: 450px;
+    border-bottom: 1px solid gray;
+    margin-top: -60px;
+  
+   }
+
+  h4{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+  .skills{
+    margin: 100px 171px 0px 171px;
+    box-sizing: border-box;
+  }
+ .skills-lower-block{
+  display: flex;
+
+ }
+ .skill-box{
+  margin: 0px 0px 5px 8px;
+  border: 1px solid rgba(146, 157,175, 1);
+  justify-content: space-between;
+ }
+ .skill-box-title{
+  padding: 0px 10px 0px 10px;
+  border-bottom: 1px solid rgba(146, 157,175, 1);
+ }
+ .skill-box-title h4{
+  margin: 10px;
+  color: rgba(146, 157,175, 1);
+ }
+ .skill-box-head h4{
+    margin: 0px 70px 0px 20px;
+    padding: 10px 30px 10px 10px;
+
+ }
+ .skill-box-desc{
+  padding: 0px 5px 0px 10px;
+  color: rgba(146, 157,175, 1);
+ }
+
+  .facts{
+    margin: 100px 171px 100px ;
+  }
+  .facts-portion{
+    display: flex;
+  }
+  .facts-left-portion{
+    display: flex;
+    flex: 2;
+  }
+  .facts-right-portion{
+    display: flex;
+    flex: 1;
+  }
+  .my-facts{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .my-facts h5{
+    border: 1px solid  rgba(146, 157,175, 1) ;
+    padding: 10px 25px 10px 20px;
+    margin: 7px ;
+    color:  rgba(146, 157,175, 1) ;
+    font-size: 16px;
+  }
+  .my-facts span{
+    color: white;
+  }
+
+  .footer{
+    border-top: 1px solid rgba(146, 157,175, 1);
+    margin-top: 100px;
+    padding: 15px 171px;
+    display: flex;
+    color: antiquewhite;
+   }
+   .footer-text{flex: 1;}
+   .img-row{justify-content: end;}
+  
+   .copyright{
+    color: rgba(146, 157,175, 1);
+    text-align: center;
+    padding:10 20px 0px 20px;
+   }
+   @media (max-width:575px){
+    body {margin: 0;padding: 0 16px;}
+    .fixed{display: none;}
+    .header{position: relative;margin: 0;flex-direction: column;}
+    .header h4 {font-size: 22px; margin: 20px 0;}
+     nav {flex-direction: row;justify-content: center;}
+     nav ul {padding-left: 0;display: flex;gap: 14px;justify-content: center;}
+     nav li{padding-left: 0;}
+     .footer{display: flex;padding: 20px 0;}
+     .img-row{justify-content: flex-end;margin: 10px 0;padding: 0;color: wheat;}
+     .footer-text{flex: 1;margin: 10px 0;color: white;}
+     .about-me{margin: 10px 0;}
+     .lower-about-me{flex-direction: column;margin: 10px 0;}
+     .right-about-me img{width: 100%;margin: 10px 0;}
+     .left-about-me p {
+      font-size: 13px;
+      line-height: 1.5;
+      font-weight: bold;
+      color: rgba(146, 157, 175, 1);}
+     .skills{margin: 10px 0;}
+     .skills-lower-block{flex-direction: column;margin: 10px 0;}
+     .skill-box{width: 100%;margin: 5px 0;padding: 0;}
+     .skill-box-title{margin: 0;padding: 0;}
+     .skill-box-title h4{margin: 5px;}
+     .skill-box-desc p,.Capital,.desc{margin: 0;padding: 5px 5px; font-size: 14px;}
+     .my-facts{flex-direction: column;margin: 10px 0;}
+     .facts{margin: 10px 0;}
+     .facts-portion{flex-direction: column;margin: 10px 0;}
+     .facts-left-portion{margin: 10px 0;}
+     .facts-right-portion{margin: 10px 0;}
+     .my-facts h5{margin: 5px;padding: 0;}
+     .my-facts span{margin: 5px;padding: 0;}
+     .my-facts h5{margin: 5px;padding: 5px;}
+     .facts-right-portion img{width: fit-content;margin: 10px 0;height: fit-content;}
+    }
+  
+  
